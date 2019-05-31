@@ -1,0 +1,20 @@
+<%= @last_sale.inspect %>
+
+
+<% if @last_sale.inspect %>
+
+<h1> Si es verdadero ok </h1>
+
+
+
+<%end%>
+
+
+
+<h1><%=@last_sale.value%></h1>
+<h1><%=@last_sale.category%></h1>
+<h1><%=@last_sale.detal%></h1>
+<h1><%=@last_sale.discount%></h1>
+
+
+<%= link_to "volver", sales_new_path%> 
